@@ -1,0 +1,3 @@
+Changed to grid in CSS
+Changed border colors
+Changed 'on hover' effects 

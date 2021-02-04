@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300');
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: -2px 2px 8px #505050;
+}
+
+.main {
+  background-color: #6aa3ff;
+  border: 5px solid #6aa3ff;
+  border-radius: 5px;
+  width: 300px;
+  margin: auto;
+}
+
+.num-panel {
+  background-color: #6aa3ff;
+  color: #ffffff;
+  border: 1px solid #505050;
+  border-radius: 3px;
+  font-size: 50px;
+  text-align: right;
+  height: 60px;
+  width: 258px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 2px;
+}
+
+.num-btn,
+.operator-btn {
+  background-image: linear-gradient(#bce6ff, #ffffff, #bce6ff);
+  color: rgb(0, 0, 0);
+  border: 1px solid #8eb9ff;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.num-btn:hover,
+.operator-btn:hover {
+  background-image: linear-gradient(#73c7ff, #ffffff, #73c7ff);
+  border: 1px solid #000000;
+}
+
+.operator-btn {
+  background-image: linear-gradient(#8eb9ff, #ffffff, #8eb9ff);
+}
+
+.row {
+  display: table;
+  table-layout: fixed;
+  width: 300px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1px 1px;
+  grid-template-areas:
+    'Clear Backspace Root Divide'
+    'Nine Eight Seven Multiply'
+    'Six Five Four Minus'
+    'Three Two One Plus'
+    'Dot Zero Equal Plus';
+}
+
+.Clear {
+  grid-area: Clear;
+}
+
+.Backspace {
+  grid-area: Backspace;
+}
+
+.Root {
+  grid-area: Root;
+}
+
+.Divide {
+  grid-area: Divide;
+}
+
+.Multiply {
+  grid-area: Multiply;
+}
+
+.Minus {
+  grid-area: Minus;
+}
+
+.Plus {
+  grid-area: Plus;
+  padding-top: 47px;
+}
+
+.Nine {
+  grid-area: Nine;
+}
+
+.Eight {
+  grid-area: Eight;
+}
+
+.Seven {
+  grid-area: Seven;
+}
+
+.Six {
+  grid-area: Six;
+}
+
+.Five {
+  grid-area: Five;
+}
+
+.Four {
+  grid-area: Four;
+}
+
+.Three {
+  grid-area: Three;
+}
+
+.Two {
+  grid-area: Two;
+}
+
+.One {
+  grid-area: One;
+}
+
+.Dot {
+  grid-area: Dot;
+}
+
+.Zero {
+  grid-area: Zero;
+}
+
+.Equal {
+  grid-area: Equal;
+}
