@@ -52,7 +52,7 @@ h1 {
 .num-btn:hover,
 .operator-btn:hover {
   background-image: linear-gradient(#73c7ff, #ffffff, #73c7ff);
-  border: 1px solid #000000;
+  border: 1px solid #0778c4;
 }
 
 .operator-btn {
